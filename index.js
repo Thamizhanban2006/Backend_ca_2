@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const port = 3000;
+const PORT = 3000;
 
 app.use(express.json());
 
@@ -30,6 +30,6 @@ app.post('/',(req,res)=>{
     });
 })
 
-app.listen(port,()=>{
+app.listen(PORT,()=>{
     console.log(`http://localhost:${port}`);
 });
