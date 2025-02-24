@@ -31,5 +31,5 @@ app.post('/',(req,res)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`http://localhost:${port}`);
+    console.log(`http://localhost:${PORT}`);
 });
